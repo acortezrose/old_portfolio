@@ -1,0 +1,199 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3{
+  font-family: 'Archivo Black', sans-serif;
+  text-align: left;
+  line-height:2em;
+  color: #132b00;
+}
+
+h1{
+  opacity: 0;
+  font-size: 4em;
+  line-height: 1.5em;
+}
+
+h2{
+  font-size: 3em;
+  line-height: 1em;
+  color: #002114;
+  text-align: right;
+}
+
+h3{
+  font-size: 1.3em;
+  
+}
+
+h4{
+  font-size: 2em;
+  line-height: 1em;
+  color: #132b00;
+}
+
+p{
+  font-size: 1.2em;
+  color: #132b00;
+  padding-right: 3em;
+}
+
+a{
+  color: #ec5b00;
+}
+
+input, textarea{
+  border: 1px solid #aaa;
+  width: 750px;
+  margin-bottom: .5em;
+  padding: 1em;
+  font-size: 1em;
+}
+
+textarea{
+  height: 250px;
+}
+
+.align-bottom{
+  position: absolute;
+  bottom: 0;
+}
+
+.button{
+  background-color: #ebe7ec;
+  padding: .5em 2em;
+  border-radius: 1em;
+  box-shadow: 2px 3px #ec5b0033;
+  font-size: 1em;
+}
+
+.button:hover{
+  box-shadow: 3px 4px #ec5b0066;
+}
+
+.button:active{
+  background-color: #ebe7ecdd;
+  box-shadow: -4px -3px #ec5b0033;
+}
+
+.button[type="submit"], .button[type="submit"]:active{
+  background-color: white;
+  color: #ec5b00;
+}
+
+.container-fluid{
+  font-family: 'Tenor Sans', sans-serif;
+  font-size:1em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+  background-color: #ebe7ec;
+}
+
+.hide{
+  display: none;
+  max-width: 450px;
+  background-color: #ebe7ec;
+  padding: 1em 1.618em;
+  margin: 1em 0em 2em 0em;
+}
+
+.icon{
+  margin-right: 1em;
+}
+
+.inline{
+  display: inline;
+}
+
+.propper-padding{
+  padding: 3em;
+}
+
+.left{
+  float: left
+}
+
+.right{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.center{
+  text-align: center;
+}
+
+.tab{
+  padding-left: 1em;
+}
+
+.phead{
+  cursor: pointer;
+}
+
+.proj-wells{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.well{
+  /*max-width: 500px;*/
+  width: 100%;
+}
+
+#nav-buttons{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  
+}
+
+#b1, #b2, #b3 {
+  position: relative;
+  left: 200vh;
+}
+
+#nav-buttons a{
+  text-decoration: none;
+}
+
+#intro{
+  background-color: #e7c8d5;
+  min-height: 100vh;
+}
+
+#myName, #descrip{
+  opacity: 0;
+}
+
+#dev-projects{
+  min-height: 100vh;
+}
+
+#des-projects{
+  background-color: #e7c8d5;
+  min-height: 100vh;
+}
+
+#about{
+  min-height: 100vh; 
+}
+
+
+@media screen and (min-width: 800px){
+
+
+  .well {
+    width: 500px;
+  }
+  
+  input, textarea{
+    width: 80%;
+  }
+}
